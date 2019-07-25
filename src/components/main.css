@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+    .viewmode {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .back-button {
+      display: none;
+    }
+  }
+  .contactlist-scroll {
+    
+    height: calc(100vh - 190px);
+    overflow-y: scroll;
+
+  }
